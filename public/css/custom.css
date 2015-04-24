@@ -1,10 +1,10 @@
 
 .circular {
-	width: 300px;
-	height: 300px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
+	width: 400px;
+	height: 400px;
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
 	background: url(http://link-to-your/image.jpg) no-repeat;
 }
 
@@ -23,12 +23,40 @@
 .navbar-inner{
     text-align:center;
 }
+.banner {
+	border-radius: 20px;
+}
 a {
 	color: #FF3333;
 	font-weight: bold;
 }
+a:hover {
+	text-decoration: none;
+	color: #CCCCCC;
+	opacity: .8;
+	-webkit-transition: all 100ms linear;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 100ms;
+	-webkit-transition-timing-function: linear;
+	-webkit-transition-delay: initial;
+	-moz-transition: all 100ms linear;
+	-o-transition: all 100ms linear;
+	transition: all 100ms linear;
+	transition-property: all;
+	transition-duration: 100ms;
+	transition-timing-function: linear;
+	transition-delay: initial;
+}
 b {
 	color: #888888;	
+}
+h2 {
+  text-align: left;
+  color: #FF3333;
+  font-weight: 300;
+  font-size: 3em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
 }
 .navlink {
   padding: 0px 8px 0px 8px;

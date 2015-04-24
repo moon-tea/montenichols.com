@@ -20,7 +20,7 @@
 							<b>Email: </b><a href="mailto:monte.nichols.ii@gmail.com">monte.nichols.ii@gmail.com</a></li>
 						</li>
 						<li>
-							<b>LinkedIn: </b><a href="https://www.linkedin.com/pub/monte-nichols/90/ab8/3a">Monte Nichols</a></li>
+							<b>LinkedIn: </b><a href="https://www.linkedin.com/pub/monte-nichols/90/ab8/3a">in/Monte-Nichols</a></li>
 						</li>
 						<li>
 							<b>GitHub: </b><a href="https://github.com/moon-tea?tab=repositories">moon-tea</a></li>
@@ -31,8 +31,9 @@
 					<nav class="navbar-gray" role="navigation">
 						<div class="navbar-inner">
 							<ul class="nav">
+								<a class="navlink" href="{{ URL::to ('/') }}">About</a>
 								<a class="navlink" href="{{ URL::to ('/projects') }}">Projects</a>
-								<a class="navlink" href="{{ URL::to ('/code') }}">Code</a>
+								<a class="navlink" href="https://github.com/moon-tea?tab=repositories">Code</a>
 								<a class="navlink" href="{{ URL::to ('/resume') }}">Resume</a>
 							</ul>
 						</div>

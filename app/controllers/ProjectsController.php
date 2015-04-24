@@ -1,6 +1,6 @@
 <?php
 
-class GalleryController extends BaseController {
+class ProjectsController extends BaseController {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -13,7 +13,7 @@ class GalleryController extends BaseController {
 
 	public function index()
 	{
-		return View::make('gallery/index');
+		return View::make('projects/index');
 	}
 	
 	/*
